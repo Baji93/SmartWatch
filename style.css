@@ -1,0 +1,54 @@
+.col{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    float:left;
+    margin-top:5px;
+}
+.but{
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.r{
+    height: 80px;
+}
+.move{
+    padding-right:15px;
+    padding-bottom:5px;
+    padding-top:15px;
+}
+.row1{
+    background-image: url(apple.png);
+    height:830px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ven{
+    padding-left: 200px;
+}
+.row2{
+    background-image: url(company.jpeg);
+    height:830px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ven2{
+    padding-top: 400px;
+    padding-left: 800px;
+    
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
